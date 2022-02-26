@@ -40,7 +40,7 @@ int main()
     setlocale(LC_ALL, "Russian");
 
     // Границы интегрирования.
-    double a = -1;
+    double a = 0;
     double b = 1;
 
     chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
